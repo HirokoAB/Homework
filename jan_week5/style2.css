@@ -1,0 +1,7 @@
+#elemon:hover{
+    color: yellow;
+}
+
+#elemon:active{
+    color:red;
+}

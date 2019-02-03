@@ -1,0 +1,7 @@
+#elemo{
+    color: yellow;
+}
+
+#elemo:active{
+    color:red;
+}
