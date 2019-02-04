@@ -1,5 +1,5 @@
 
-//課題の大元はここにある・・・
+//課題の大元
 // document.addEventListener('DOMContentLoaded',function(){
 //     let elem = document.getElementById('elem');
 //     elem.addEventListener('mouseover',function(){
@@ -15,7 +15,7 @@
 
 //Samuraiで調べた内容を試す
 // let head = document.head;
-// //headはドキュメントのhead部分である
+// //headはドキュメントのhead部分
 
 //  linkElement = document.createElement("link");
 // //linkElementにlinkタブ作れの命令を格納 
@@ -28,8 +28,7 @@
 //   head.appendChild(linkElement);
 //headの子要素にLE作成
 
-//!!見事成功!!
-//しかし記述が長くてうんざりしだす　→ そうだ直接オブジェクトにしてみよう！
+
 // let head = document.head;
 // linkElement = document.createElement("link");
 // linkElement ={
@@ -42,7 +41,7 @@
 // linkElement = document.createElement("link");
 // head.appendChild(linkElement);
 
-//失敗　→ 國吉さんか屋慶名先生に聞いてみよー
+//失敗　→ 國吉さんか屋慶名先生に聞いてみる
 
 
 // let head = document.head;
@@ -122,14 +121,62 @@
 
 //外部CSS取り込み動作の回答④--------------------------
 
-let head = document.head;
-document.addEventListener('DOMContentLoaded',function(){
-let linkElement = document.createElement("link");
-  linkElement.type = "text/css";
-  linkElement.rel = "stylesheet";
-  linkElement.href = "style2.css";
-    head.appendChild(linkElement);  
-})
+// let head = document.head;
+// document.addEventListener('DOMContentLoaded',function(){
+// let linkElement = document.createElement("link");
+//   linkElement.type = "text/css";
+//   linkElement.rel = "stylesheet";
+//   linkElement.href = "style2.css";
+//     head.appendChild(linkElement);  
+
+
+
+//宿題の回答
+// //クラス名を追加
+// let elem2 = document.getElementById('elem2');
+// elem2.addEventListener('mouseover',function(){
+//     this.className = 'blue';
+// })
+// elem2.addEventListener('mouseout',function(){
+//     this.className = '';
+// })
+
+// //クリックされた時に色を変更する
+// let elem3 = document.getElementById('elem3');
+// elem3.addEventListener('click',function(){
+//     if(this.className=== 'blue'){
+//     elem3.className='';
+//     }else{ 
+//         elem3.className='blue';
+// }
+// })
+
+// let elem4 = document.getElementById('elem4');
+// elem4.addEventListener('click',function(){
+//     this.classList.toggle('blue');
+// })
+
+
+
+
+  let elem4 = document.getElementById('elem4');
+  elem4.addEventListener('click', function(){
+    
+    this.classList.toggle('blue');
+    
+  })
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
